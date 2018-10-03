@@ -1,0 +1,54 @@
+#main {
+    background-color: #FFF;
+    margin: 50px;
+}
+
+
+
+#left-panel {
+    background-color: #596A4E;
+    width: 30%;
+    float: left;
+    padding: 0px 8px;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: rgba(13, 13, 13, 0.514);
+}
+
+#right-content {
+    background-color: #CECECE;
+    width: 70%;
+    float: right;
+}
+
+.rb-sections {
+    background-color: aqua;
+}
+
+.rb-sections ol {
+    list-style: none;
+}
+
+.rb-separator {
+    height: 1px;
+    background: #757575;
+}
+
+.experience-container {
+    background-color: beige;
+    display: inline-block;
+}
+
+.experience-sub-container-left {
+    width: 20%;
+    float: left;
+   
+}
+
+.experience-sub-container-right {
+    width: 80%;
+    float: right;
+    clear: right;
+}
