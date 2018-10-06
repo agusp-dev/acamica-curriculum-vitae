@@ -136,18 +136,18 @@
 
 
 
-
-
-
-#header {
-    background-color: rgba(13, 13, 13, 0.514);
-}
-
 #right-content {
     background-color: #CECECE;
     width: 100%;
     float: right;
 }
+
+
+#header {
+    /* background-color: rgba(13, 13, 13, 0.514); */
+}
+
+
 
 .rb-sections {
     background-color: aqua;
