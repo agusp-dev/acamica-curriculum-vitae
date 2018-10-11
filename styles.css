@@ -29,6 +29,7 @@
 #img-container {
     height: 268px;
     text-align: center;
+    /* background: #757575; */
 }
 
 #img-profile {
@@ -137,24 +138,196 @@
 
 
 #right-content {
-    background-color: #CECECE;
+    background-color: #cecece;
     width: 100%;
     float: right;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
 }
+
+
+
+
+
 
 
 #header {
-    /* background-color: rgba(13, 13, 13, 0.514); */
+    margin: 0px;
+    height: 268px;
 }
+
+#sub-header {
+    height: 228px;
+    position: relative;
+}
+
+#main-title {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    position: absolute;
+    top: 78px;
+    margin: 0px;    
+}
+
+#main-subtitle {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #ddd;
+    position: absolute;
+    bottom: 72px;
+    margin: 0px;
+    font-weight: 300;
+}
+
+#sub-header img {
+    width: 100%;
+    height: 100%;
+}
+
+#background-image-layer {
+    background-color: #021A0290;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#menu {
+    height: 40px;
+    background: #0D0D0D;
+}
+
+.menu-item {
+    color: #8AAC87;
+    width: 16%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+
+
+#right-body {
+    margin: 48px 40px;
+    color: #242424;
+}
+
+#right-body .title {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0px 0px 4px;
+}
+
+.experience-container {
+    /* background-color: blue; */
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.experience-sub-container-left {
+    width: 20%;
+    float: left;
+}
+
+.experience-sub-container-left p {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.experience-sub-container-right {
+    width: 80%;
+    float: right;
+    clear: right;
+    font-size: 20px;
+    
+}
+
+.experience-sub-container-right p {
+    margin: 0px;
+}
+
+.experience-company {
+    font-weight: 700;
+}
+
+.experience-description {
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+#education-list li {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+#education-list p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.course-company {
+    font-weight: 700;
+}
+
+
+
+.course {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.course-name {
+    float: left;
+    font-weight: 100;
+}
+
+.course-languages {
+    float: right;
+    clear: right;
+}
+
+
+.course img {
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+
+}
+
+
+
+
+
+
+
 
 
 
 .rb-sections {
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .rb-sections ol {
     list-style: none;
+    margin-top: 20px;
+    padding: 0px;
+
 }
 
 .rb-separator {
@@ -162,19 +335,8 @@
     background: #757575;
 }
 
-.experience-container {
-    background-color: beige;
-    display: inline-block;
-}
 
-.experience-sub-container-left {
-    width: 20%;
-    float: left;
-   
-}
 
-.experience-sub-container-right {
-    width: 80%;
-    float: right;
-    clear: right;
-}
+
+
+
