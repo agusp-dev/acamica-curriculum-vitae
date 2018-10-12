@@ -1,35 +1,29 @@
+/*Main*/
 #main {
+    display: table;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
     background-color: #FFF;
-
-    /* margin: 44px; */
-
-    margin-top: 44px;
-    margin-right: 44px;
-    margin-bottom: 44px;
-    margin-left: 284px;
-    
-
     font: 14px 'Raleway', sans-serif;
     line-height: 1.35;
 }
 
-
-
+/*Left Panel*/
 #left-panel {
-    background-color: #596A4E;
-    color: #fff;
+    display: table-cell;
     width: 240px;
-    margin-left: -240px;
-    float: left;
     padding: 0px 4px;
     box-sizing: border-box;
-    /* text-align: center; */
+    background-color: #596A4E;
+    color: #fff;
+    vertical-align: top;
 }
 
+/*Profile Image*/
 #img-container {
     height: 268px;
     text-align: center;
-    /* background: #757575; */
 }
 
 #img-profile {
@@ -42,26 +36,29 @@
 }
 
 #left-sections-container ul {
-    list-style: none;
-    
-   /* text-align: center; */
+    list-style: none;    
+}
+
+.lp-sections {
+    margin: 0px 8px 40px;
 }
 
 .lp-sections .title {
     border: 1px solid #fff;
-    margin: 40px 8px 20px;
     padding: 3px 0px 2px;
     font-weight: 200;
     text-align: center;
 }
 
-.lp-sections .description {
+/*Profile*/
+#profile-description {
     color: #fff;
     font-size: 14px;
     line-height: 1.4;
-    margin: 0px 12px;
+    margin: 8px 12px 0px;
 }
 
+/*Personal Info*/
 #personal-info-list {
     padding: 0px;
     margin: 0px 8px;
@@ -76,6 +73,7 @@
     margin-right: 4px;
 }
 
+/*Skills*/
 #skills-list {
     padding: 0px;
     margin: 0px 8px;
@@ -93,13 +91,9 @@
     margin-right: 8px;
 }
 
-
-
-
-
+/*Social Media*/
 #social-media-panel {
     width: 220px;
-    height: 200px;
     margin: 0px 6px;
     box-sizing: border-box;
     text-align: center;
@@ -138,12 +132,18 @@
 
 
 #right-content {
-    background-color: #cecece;
-    width: 100%;
-    float: right;
+    display: table-cell;
     padding: 0px;
     margin: 0px;
-    display: inline-block;
+    background-color: #cecece;
+
+    /* box-sizing: border-box; */
+
+    width: 100%;
+    float: right;
+    /* display: block; */
+
+    clear: right;
 }
 
 
@@ -169,7 +169,8 @@
     color: #fff;
     position: absolute;
     top: 78px;
-    margin: 0px;    
+    margin: 0px;
+    box-sizing: border-box;    
 }
 
 #main-subtitle {
@@ -181,11 +182,15 @@
     bottom: 72px;
     margin: 0px;
     font-weight: 300;
+    box-sizing: border-box;    
+
 }
 
 #sub-header img {
     width: 100%;
     height: 100%;
+    box-sizing: border-box;    
+
 }
 
 #background-image-layer {
@@ -195,15 +200,17 @@
     left: 0;
     width: 100%;
     height: 100%;
+    box-sizing: border-box;    
+
 }
 
 #menu {
     height: 40px;
-    background: #0D0D0D;
+    background: #384530;
 }
 
 .menu-item {
-    color: #8AAC87;
+    color: #9CB09B;
     width: 16%;
     float: left;
     text-align: center;
@@ -218,6 +225,7 @@
 #right-body {
     margin: 48px 40px;
     color: #242424;
+    box-sizing: border-box;
 }
 
 #right-body .title {
@@ -227,7 +235,6 @@
 }
 
 .experience-container {
-    /* background-color: blue; */
     display: inline-block;
     width: 100%;
     margin-bottom: 26px;
@@ -249,7 +256,6 @@
     float: right;
     clear: right;
     font-size: 20px;
-    
 }
 
 .experience-sub-container-right p {
@@ -307,7 +313,6 @@
     width: 24px;
     height: 24px;
     margin-left: 4px;
-
 }
 
 
@@ -319,9 +324,7 @@
 
 
 
-.rb-sections {
-    /* background-color: aqua; */
-}
+
 
 .rb-sections ol {
     list-style: none;
