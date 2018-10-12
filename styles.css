@@ -2,7 +2,7 @@
 #main {
     display: table;
     width: 100%;
-    padding: 40px;
+    padding: 40px 40px 0px;
     box-sizing: border-box;
     background-color: #FFF;
     font: 14px 'Raleway', sans-serif;
@@ -137,11 +137,8 @@
     margin: 0px;
     background-color: #cecece;
 
-    /* box-sizing: border-box; */
-
     width: 100%;
     float: right;
-    /* display: block; */
 
     clear: right;
 }
@@ -337,6 +334,50 @@
     height: 1px;
     background: #757575;
 }
+
+
+/*
+Portfolio
+*/
+#portfolio {
+    background-color: #242424;
+    height: 148px;
+    margin: 0px 40px 40px;
+    bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+
+    font: 14px 'Raleway', sans-serif;
+    line-height: 1.35;
+
+}
+
+#pf-title {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#portfolio-left-panel p {
+    font-weight: 100;
+}
+
+#portfolio-left-panel {
+    /* background-color: #596A4E; */
+    width: 216px;
+    height: 100%;
+    float: left;
+    color: #fff;
+}
+
+#portfolio-projects {
+    background-color: #9CB09B;
+    float: left;
+    clear: right;
+    height: 100%;
+    box-sizing: border-box;
+}
+
 
 
 
