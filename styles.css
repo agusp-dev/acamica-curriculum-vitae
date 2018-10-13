@@ -1,12 +1,27 @@
+/*General*/
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font: 14px 'Raleway', sans-serif;
+    line-height: 1.4;
+    color: #fff;
+}
+
+
 /*Main*/
 #main {
     display: table;
     width: 100%;
+    min-width: 1205px;
     padding: 40px 40px 0px;
     box-sizing: border-box;
-    background-color: #FFF;
-    font: 14px 'Raleway', sans-serif;
-    line-height: 1.35;
+    background-color: #fff;
 }
 
 /*Left Panel*/
@@ -14,10 +29,9 @@
     display: table-cell;
     width: 240px;
     padding: 0px 4px;
+    vertical-align: top;
     box-sizing: border-box;
     background-color: #596A4E;
-    color: #fff;
-    vertical-align: top;
 }
 
 /*Profile Image*/
@@ -27,16 +41,12 @@
 }
 
 #img-profile {
-    width: 140px;
-    height: 140px;
+    width: 156px;
+    height: 156px;
     border-radius: 50%;
     border: 2px solid #fff;
     box-sizing: border-box;
     margin: 64px 0px;
-}
-
-#left-sections-container ul {
-    list-style: none;    
 }
 
 .lp-sections {
@@ -52,7 +62,6 @@
 
 /*Profile*/
 #profile-description {
-    color: #fff;
     font-size: 14px;
     line-height: 1.4;
     margin: 8px 12px 0px;
@@ -101,8 +110,6 @@
 
 .social-media-item {
     font-size: 16px;
-    text-decoration: none;
-    color: #fff;
     width: 92px;
     height: 80px;
     margin-top: 0px;
@@ -110,6 +117,7 @@
     display: inline-block;  
     box-sizing: border-box;
     text-align: center;
+    color: #fff;
 }
 
 .social-media-item img {
@@ -119,36 +127,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*Right Content*/
 #right-content {
     display: table-cell;
+    width: 100%;
     padding: 0px;
     margin: 0px;
     background-color: #cecece;
-
-    width: 100%;
-    float: right;
-
-    clear: right;
 }
 
-
-
-
-
-
-
+/*Right Content Header*/
 #header {
     margin: 0px;
     height: 268px;
@@ -161,11 +149,10 @@
 
 #main-title {
     width: 100%;
-    text-align: center;
-    font-size: 36px;
-    color: #fff;
-    position: absolute;
     top: 78px;
+    font-size: 36px;
+    position: absolute;
+    text-align: center;
     margin: 0px;
     box-sizing: border-box;    
 }
@@ -191,34 +178,36 @@
 }
 
 #background-image-layer {
-    background-color: #021A0290;
+    background-color: #021A0295;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     box-sizing: border-box;    
-
 }
 
+/*Menu*/
 #menu {
     height: 40px;
-    background: #384530;
+    background: #363636;
 }
 
 .menu-item {
-    color: #9CB09B;
+    color: #bdbdbd;
     width: 16%;
     float: left;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
+
 }
 
+.menu-item:hover {
+    color: #fff;
+}
 
-
-
-
+/*Right Body*/
 #right-body {
     margin: 48px 40px;
     color: #242424;
@@ -244,7 +233,7 @@
 
 .experience-sub-container-left p {
     margin: 0px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -252,7 +241,7 @@
     width: 80%;
     float: right;
     clear: right;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .experience-sub-container-right p {
@@ -266,12 +255,6 @@
 .experience-description {
     font-weight: 100;
 }
-
-
-
-
-
-
 
 #education-list li {
     width: 100%;
@@ -287,8 +270,6 @@
     font-weight: 700;
 }
 
-
-
 .course {
     width: 100%;
     display: inline-block;
@@ -302,9 +283,7 @@
 
 .course-languages {
     float: right;
-    clear: right;
 }
-
 
 .course img {
     width: 24px;
@@ -312,22 +291,9 @@
     margin-left: 4px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .rb-sections ol {
-    list-style: none;
     margin-top: 20px;
     padding: 0px;
-
 }
 
 .rb-separator {
@@ -335,47 +301,75 @@
     background: #757575;
 }
 
+/* Portfolio */
+footer {
+    width: 100%;
+    padding: 0px 40px 40px 40px;
+    min-width: 1205px;
+    box-sizing: border-box;
+}
 
-/*
-Portfolio
-*/
 #portfolio {
+    display: table;
+    width: 100%;
     background-color: #242424;
-    height: 148px;
-    margin: 0px 40px 40px;
-    bottom: 0;
+    height: 224px;
     padding: 20px;
     box-sizing: border-box;
+}
 
-    font: 14px 'Raleway', sans-serif;
-    line-height: 1.35;
+#pf-left-panel {
+    display: table-cell;
+    width: 216px;
+    height: 100%;
+    vertical-align: top;
+}
 
+#pf-left-panel p {
+    font-weight: 100;
 }
 
 #pf-title {
     margin: 0px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 200;
 }
 
-#portfolio-left-panel p {
-    font-weight: 100;
-}
-
-#portfolio-left-panel {
-    /* background-color: #596A4E; */
-    width: 216px;
+#pf-projects {
     height: 100%;
-    float: left;
-    color: #fff;
-}
-
-#portfolio-projects {
-    background-color: #9CB09B;
-    float: left;
-    clear: right;
-    height: 100%;
+    width: 100%;
+    display: table-cell;
+    padding: 28px 0px 16px;
     box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+
+.project {
+    width: 104px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #373737;
+    padding: 8px 8px 0px;
+    border-radius: 5%;
+    margin-right: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.project:hover {
+    background-color: #384530;
+}
+
+.project img {
+  width: 64px;
+  height: 64px;
+}
+
+.project p {
+    font-size: 18px;
+    font-weight: 500;
 }
 
 
